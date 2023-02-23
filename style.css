@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 2rem;
+}
+.taskOne {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  color: white;
+}
+.taskOne div {
+  background-color: red;
+  width: 185px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* task two */
+:root {
+  --main-padding: 1rem;
+  --bg-color: #eee;
+}
+.page {
+  padding: var(--main-padding);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background-color: var(--bg-color);
+  padding: var(--main-padding);
+  width: 15%;
+  text-align: center;
+}
+.links {
+  background-color: var(--bg-color);
+  padding: var(--main-padding);
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  justify-content: flex-end;
+}
+.main-area {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.content {
+  width: 70%;
+  height: 500px;
+  background-color: var(--bg-color);
+  padding: var(--main-padding);
+}
+.sideBar {
+  width: 30%;
+  height: 500px;
+  background-color: var(--bg-color);
+  padding: var(--main-padding);
+}
+.footer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: var(--bg-color);
+  padding: var(--main-padding);
+}
